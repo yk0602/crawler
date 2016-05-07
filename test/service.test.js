@@ -1,4 +1,4 @@
-var service = require('../service');
+var service = require('../index');
 var should = require('should');
 describe('test service.js', function() {
   it('test getContent()', function(done) {

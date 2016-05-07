@@ -12,7 +12,5 @@ var articleSchema = mongoose.Schema({
 });
 
 var Article = mongoose.model('Article', articleSchema);
-
-var a = new Article({title: 'test', href: 'www.baidu', content: 'hello world'});
-
-console.log(a.title)
+ 
+ module.exports = Article;
